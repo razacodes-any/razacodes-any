@@ -34,7 +34,7 @@ I enjoy solving problems, building useful software, and learning by turning idea
 
 | Project | Overview |
 |---|---|
-| **AI Music Recommender** | Explores music recommendation and helps listeners discover tracks based on their musical interests |
+| **AI Music Recommender** | Explores music recommendation and helps listeners discover tracks based on their musical interests — [Live demo](https://ai-music-recommender-seven.vercel.app) |
 | **No-Code ML Platform** | Brings dataset upload, model training, and predictions into a no-code workflow |
 | **Personal Portfolio** | Responsive website presenting my background, selected work, and contact information — [Live site](https://fardeen-raza-portfolio.vercel.app/) · [Source](https://github.com/razacodes-any/fardeen-raza-portfolio) |
 | **Aamash Engineers Website** | Website development work supporting the company's online presence — [Visit site](https://aamashengineers.in/) |

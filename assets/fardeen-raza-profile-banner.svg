@@ -1,46 +1,46 @@
-&lt;svg xmlns="http://www.w3.org/2000/svg" width="1600" height="530" viewBox="0 0 1600 530" role="img" aria-labelledby="title desc">
-  &lt;title id="title">Fardeen Raza — Software Developer&lt;/title>
-  &lt;desc id="desc">A dark, minimal coding-themed banner with a terminal panel and blue and lime accents.&lt;/desc>
-  &lt;defs>
-    &lt;linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">&lt;stop offset="0" stop-color="#070C13"/>&lt;stop offset=".55" stop-color="#0B1420"/>&lt;stop offset="1" stop-color="#101D2B"/>&lt;/linearGradient>
-    &lt;linearGradient id="name" x1="0" y1="0" x2="1" y2="0">&lt;stop offset="0" stop-color="#F4F7FB"/>&lt;stop offset="1" stop-color="#8FC8FF"/>&lt;/linearGradient>
-    &lt;linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">&lt;stop offset="0" stop-color="#69B7FF"/>&lt;stop offset="1" stop-color="#B9E85A"/>&lt;/linearGradient>
-    &lt;radialGradient id="blueGlow">&lt;stop offset="0" stop-color="#1D70C9" stop-opacity=".36"/>&lt;stop offset="1" stop-color="#1D70C9" stop-opacity="0"/>&lt;/radialGradient>
-    &lt;radialGradient id="limeGlow">&lt;stop offset="0" stop-color="#B9E85A" stop-opacity=".12"/>&lt;stop offset="1" stop-color="#B9E85A" stop-opacity="0"/>&lt;/radialGradient>
-    &lt;pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">&lt;path d="M42 0H0V42" fill="none" stroke="#9FCFFF" stroke-opacity=".075" stroke-width="1"/>&lt;/pattern>
-    &lt;filter id="blur" x="-50%" y="-50%" width="200%" height="200%">&lt;feGaussianBlur stdDeviation="35"/>&lt;/filter>
-    &lt;filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">&lt;feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000814" flood-opacity=".48"/>&lt;/filter>
-  &lt;/defs>
-  &lt;rect width="1600" height="530" rx="28" fill="url(#bg)"/>
-  &lt;rect width="1600" height="530" rx="28" fill="url(#grid)" opacity=".48"/>
-  &lt;ellipse cx="1260" cy="260" rx="430" ry="340" fill="url(#blueGlow)" filter="url(#blur)"/>
-  &lt;ellipse cx="280" cy="510" rx="310" ry="130" fill="url(#limeGlow)" filter="url(#blur)"/>
-  &lt;path d="M0 460C350 395 560 530 930 442S1360 350 1600 420" fill="none" stroke="#70BFFF" stroke-opacity=".13" stroke-width="2"/>
-  &lt;path d="M0 478C350 413 560 548 930 460S1360 368 1600 438" fill="none" stroke="#B9E85A" stroke-opacity=".12"/>
-  &lt;g font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif">
-    &lt;g transform="translate(76 66)">&lt;circle cx="9" cy="0" r="5" fill="#B9E85A"/>&lt;text x="28" y="6" fill="#A9B7C7" font-size="17" letter-spacing="3">RAZACODES-ANY&lt;/text>&lt;text x="340" y="6" fill="#60758B" font-size="14" letter-spacing="2">/ PROFILE&lt;/text>&lt;/g>
-    &lt;text x="76" y="218" fill="url(#name)" font-size="104" font-weight="760" letter-spacing="-5">Fardeen Raza&lt;/text>
-    &lt;rect x="78" y="250" width="72" height="4" rx="2" fill="url(#accent)"/>
-    &lt;text x="76" y="300" fill="#E7EEF7" font-size="27" font-weight="520">Software Developer&lt;/text>&lt;circle cx="344" cy="291" r="4" fill="#B9E85A"/>&lt;text x="365" y="300" fill="#A9B7C7" font-size="25">Computer Science Graduate&lt;/text>
-    &lt;g transform="translate(76 362)">
-      &lt;rect width="184" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/>&lt;path d="M27 26l-9 7 9 7M45 26l9 7-9 7M40 21l-8 24" fill="none" stroke="#8FC8FF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>&lt;text x="73" y="39" fill="#F0F5FB" font-size="19" font-weight="600">DSA&lt;/text>
-      &lt;rect x="198" width="226" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/>&lt;path d="M223 26l14-8 14 8-14 8-14-8zm0 9l14 8 14-8" fill="none" stroke="#8FC8FF" stroke-width="2" stroke-linejoin="round"/>&lt;text x="266" y="39" fill="#F0F5FB" font-size="19" font-weight="600">Web Development&lt;/text>
-      &lt;rect x="438" width="236" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/>&lt;path d="M463 45V32h9v13m5 0V22h9v23m5 0V14h9v31" fill="none" stroke="#B9E85A" stroke-width="2.2" stroke-linecap="round"/>&lt;text x="507" y="39" fill="#F0F5FB" font-size="18" font-weight="600">Machine Learning&lt;/text>
-      &lt;rect x="688" width="154" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/>&lt;path d="M713 23h21v20h-21zM718 18h21v20" fill="none" stroke="#8FC8FF" stroke-width="2" stroke-linejoin="round"/>&lt;text x="747" y="39" fill="#F0F5FB" font-size="18" font-weight="600">Projects&lt;/text>
-    &lt;/g>
-    &lt;g transform="translate(1010 83)" filter="url(#shadow)">
-      &lt;rect width="514" height="350" rx="19" fill="#0B111A" stroke="#36516D" stroke-width="1.5"/>&lt;path d="M0 19Q0 0 19 0H495Q514 0 514 19V51H0Z" fill="#172433"/>
-      &lt;circle cx="25" cy="25" r="6" fill="#FF6D70"/>&lt;circle cx="48" cy="25" r="6" fill="#F6C45D"/>&lt;circle cx="71" cy="25" r="6" fill="#72D69A"/>
-      &lt;text x="106" y="31" fill="#8EA3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">fardeen.py — workspace&lt;/text>
-      &lt;text x="31" y="93" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">$&lt;/text>&lt;text x="58" y="93" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="17">whoami&lt;/text>
-      &lt;text x="58" y="128" fill="#B9E85A" font-family="ui-monospace,monospace" font-size="18">Fardeen Raza&lt;/text>
-      &lt;text x="31" y="176" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">$&lt;/text>&lt;text x="58" y="176" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="17">def build():&lt;/text>
-      &lt;text x="88" y="212" fill="#C792EA" font-family="ui-monospace,monospace" font-size="17">return&lt;/text>&lt;text x="163" y="212" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="17">[&lt;/text>
-      &lt;text x="112" y="249" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">"solve()"&lt;/text>&lt;text x="112" y="284" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">"learn()"&lt;/text>&lt;text x="112" y="319" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">"build()"&lt;/text>
-      &lt;rect x="215" y="307" width="9" height="18" fill="#B9E85A" opacity=".9"/>&lt;path d="M385 78v222" stroke="#294157"/>
-      &lt;text x="408" y="111" fill="#71879D" font-family="ui-monospace,monospace" font-size="12">STATUS&lt;/text>&lt;circle cx="414" cy="146" r="5" fill="#B9E85A"/>&lt;text x="430" y="151" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">BUILDING&lt;/text>
-      &lt;text x="408" y="193" fill="#71879D" font-family="ui-monospace,monospace" font-size="12">FOCUS&lt;/text>&lt;text x="408" y="229" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">DSA&lt;/text>&lt;text x="408" y="258" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">WEB&lt;/text>&lt;text x="408" y="287" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">ML&lt;/text>
-    &lt;/g>
-    &lt;text x="76" y="485" fill="#8094A9" font-size="15" letter-spacing="4">BUILD  /  LEARN  /  SOLVE  /  REPEAT&lt;/text>&lt;path d="M1370 478h154" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>&lt;circle cx="1530" cy="478" r="5" fill="#B9E85A"/>
-  &lt;/g>
-&lt;/svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="530" viewBox="0 0 1600 530" role="img" aria-labelledby="title desc">
+  <title id="title">Fardeen Raza — Software Developer</title>
+  <desc id="desc">A dark, minimal coding-themed banner with a terminal panel and blue and lime accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070C13"/><stop offset=".55" stop-color="#0B1420"/><stop offset="1" stop-color="#101D2B"/></linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F4F7FB"/><stop offset="1" stop-color="#8FC8FF"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#69B7FF"/><stop offset="1" stop-color="#B9E85A"/></linearGradient>
+    <radialGradient id="blueGlow"><stop offset="0" stop-color="#1D70C9" stop-opacity=".36"/><stop offset="1" stop-color="#1D70C9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="limeGlow"><stop offset="0" stop-color="#B9E85A" stop-opacity=".12"/><stop offset="1" stop-color="#B9E85A" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#9FCFFF" stroke-opacity=".075" stroke-width="1"/></pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="35"/></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000814" flood-opacity=".48"/></filter>
+  </defs>
+  <rect width="1600" height="530" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="530" rx="28" fill="url(#grid)" opacity=".48"/>
+  <ellipse cx="1260" cy="260" rx="430" ry="340" fill="url(#blueGlow)" filter="url(#blur)"/>
+  <ellipse cx="280" cy="510" rx="310" ry="130" fill="url(#limeGlow)" filter="url(#blur)"/>
+  <path d="M0 460C350 395 560 530 930 442S1360 350 1600 420" fill="none" stroke="#70BFFF" stroke-opacity=".13" stroke-width="2"/>
+  <path d="M0 478C350 413 560 548 930 460S1360 368 1600 438" fill="none" stroke="#B9E85A" stroke-opacity=".12"/>
+  <g font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif">
+    <g transform="translate(76 66)"><circle cx="9" cy="0" r="5" fill="#B9E85A"/><text x="28" y="6" fill="#A9B7C7" font-size="17" letter-spacing="3">RAZACODES-ANY</text><text x="340" y="6" fill="#60758B" font-size="14" letter-spacing="2">/ PROFILE</text></g>
+    <text x="76" y="218" fill="url(#name)" font-size="104" font-weight="760" letter-spacing="-5">Fardeen Raza</text>
+    <rect x="78" y="250" width="72" height="4" rx="2" fill="url(#accent)"/>
+    <text x="76" y="300" fill="#E7EEF7" font-size="27" font-weight="520">Software Developer</text><circle cx="344" cy="291" r="4" fill="#B9E85A"/><text x="365" y="300" fill="#A9B7C7" font-size="25">Computer Science Graduate</text>
+    <g transform="translate(76 362)">
+      <rect width="184" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/><path d="M27 26l-9 7 9 7M45 26l9 7-9 7M40 21l-8 24" fill="none" stroke="#8FC8FF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><text x="73" y="39" fill="#F0F5FB" font-size="19" font-weight="600">DSA</text>
+      <rect x="198" width="226" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/><path d="M223 26l14-8 14 8-14 8-14-8zm0 9l14 8 14-8" fill="none" stroke="#8FC8FF" stroke-width="2" stroke-linejoin="round"/><text x="266" y="39" fill="#F0F5FB" font-size="19" font-weight="600">Web Development</text>
+      <rect x="438" width="236" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/><path d="M463 45V32h9v13m5 0V22h9v23m5 0V14h9v31" fill="none" stroke="#B9E85A" stroke-width="2.2" stroke-linecap="round"/><text x="507" y="39" fill="#F0F5FB" font-size="18" font-weight="600">Machine Learning</text>
+      <rect x="688" width="154" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/><path d="M713 23h21v20h-21zM718 18h21v20" fill="none" stroke="#8FC8FF" stroke-width="2" stroke-linejoin="round"/><text x="747" y="39" fill="#F0F5FB" font-size="18" font-weight="600">Projects</text>
+    </g>
+    <g transform="translate(1010 83)" filter="url(#shadow)">
+      <rect width="514" height="350" rx="19" fill="#0B111A" stroke="#36516D" stroke-width="1.5"/><path d="M0 19Q0 0 19 0H495Q514 0 514 19V51H0Z" fill="#172433"/>
+      <circle cx="25" cy="25" r="6" fill="#FF6D70"/><circle cx="48" cy="25" r="6" fill="#F6C45D"/><circle cx="71" cy="25" r="6" fill="#72D69A"/>
+      <text x="106" y="31" fill="#8EA3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">fardeen.py — workspace</text>
+      <text x="31" y="93" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">$</text><text x="58" y="93" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="17">whoami</text>
+      <text x="58" y="128" fill="#B9E85A" font-family="ui-monospace,monospace" font-size="18">Fardeen Raza</text>
+      <text x="31" y="176" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">$</text><text x="58" y="176" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="17">def build():</text>
+      <text x="88" y="212" fill="#C792EA" font-family="ui-monospace,monospace" font-size="17">return</text><text x="163" y="212" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="17">[</text>
+      <text x="112" y="249" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">"solve()"</text><text x="112" y="284" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">"learn()"</text><text x="112" y="319" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">"build()"</text>
+      <rect x="215" y="307" width="9" height="18" fill="#B9E85A" opacity=".9"/><path d="M385 78v222" stroke="#294157"/>
+      <text x="408" y="111" fill="#71879D" font-family="ui-monospace,monospace" font-size="12">STATUS</text><circle cx="414" cy="146" r="5" fill="#B9E85A"/><text x="430" y="151" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">BUILDING</text>
+      <text x="408" y="193" fill="#71879D" font-family="ui-monospace,monospace" font-size="12">FOCUS</text><text x="408" y="229" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">DSA</text><text x="408" y="258" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">WEB</text><text x="408" y="287" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">ML</text>
+    </g>
+    <text x="76" y="485" fill="#8094A9" font-size="15" letter-spacing="4">BUILD  /  LEARN  /  SOLVE  /  REPEAT</text><path d="M1370 478h154" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/><circle cx="1530" cy="478" r="5" fill="#B9E85A"/>
+  </g>
+</svg>

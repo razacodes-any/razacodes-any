@@ -1,46 +1,85 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="530" viewBox="0 0 1600 530" role="img" aria-labelledby="title desc">
   <title id="title">Fardeen Raza — Software Developer</title>
-  <desc id="desc">A dark, minimal coding-themed banner with a terminal panel and blue and lime accents.</desc>
+  <desc id="desc">Minimalist midnight-blue coding banner with Fardeen Raza branding and a luminous code symbol.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070C13"/><stop offset=".55" stop-color="#0B1420"/><stop offset="1" stop-color="#101D2B"/></linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F4F7FB"/><stop offset="1" stop-color="#8FC8FF"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#69B7FF"/><stop offset="1" stop-color="#B9E85A"/></linearGradient>
-    <radialGradient id="blueGlow"><stop offset="0" stop-color="#1D70C9" stop-opacity=".36"/><stop offset="1" stop-color="#1D70C9" stop-opacity="0"/></radialGradient>
-    <radialGradient id="limeGlow"><stop offset="0" stop-color="#B9E85A" stop-opacity=".12"/><stop offset="1" stop-color="#B9E85A" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#9FCFFF" stroke-opacity=".075" stroke-width="1"/></pattern>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="35"/></filter>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000814" flood-opacity=".48"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02060D"/>
+      <stop offset=".62" stop-color="#061426"/>
+      <stop offset="1" stop-color="#020812"/>
+    </linearGradient>
+    <linearGradient id="type" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8FBFF"/>
+      <stop offset=".62" stop-color="#DDEEFF"/>
+      <stop offset="1" stop-color="#67BFFF"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D5F3FF"/>
+      <stop offset=".28" stop-color="#74C8FF"/>
+      <stop offset=".65" stop-color="#1685F5"/>
+      <stop offset="1" stop-color="#064AAB"/>
+    </linearGradient>
+    <linearGradient id="blueSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5BB8FF"/>
+      <stop offset="1" stop-color="#06336F"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D3FF4D"/>
+      <stop offset="1" stop-color="#A9E834"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#087FEA" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#087FEA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+    <filter id="bright" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#007BEE" flood-opacity=".35"/>
+    </filter>
   </defs>
-  <rect width="1600" height="530" rx="28" fill="url(#bg)"/>
-  <rect width="1600" height="530" rx="28" fill="url(#grid)" opacity=".48"/>
-  <ellipse cx="1260" cy="260" rx="430" ry="340" fill="url(#blueGlow)" filter="url(#blur)"/>
-  <ellipse cx="280" cy="510" rx="310" ry="130" fill="url(#limeGlow)" filter="url(#blur)"/>
-  <path d="M0 460C350 395 560 530 930 442S1360 350 1600 420" fill="none" stroke="#70BFFF" stroke-opacity=".13" stroke-width="2"/>
-  <path d="M0 478C350 413 560 548 930 460S1360 368 1600 438" fill="none" stroke="#B9E85A" stroke-opacity=".12"/>
+
+  <rect width="1600" height="530" fill="url(#bg)"/>
+  <ellipse cx="1300" cy="280" rx="420" ry="330" fill="url(#glow)" filter="url(#softBlur)"/>
+  <path d="M1040 530C1200 390 1325 250 1600 120" fill="none" stroke="#007DF0" stroke-opacity=".12" stroke-width="110"/>
+  <path d="M0 430C270 555 520 500 770 410S1230 305 1600 405" fill="none" stroke="#0B72D4" stroke-opacity=".10" stroke-width="3"/>
+  <path d="M0 445C270 570 520 515 770 425S1230 320 1600 420" fill="none" stroke="#3CAEFF" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M0 446C270 571 520 516 770 426S1230 321 1600 421" fill="none" stroke="#3CAEFF" stroke-opacity=".26" stroke-width="12" filter="url(#softBlur)"/>
+
   <g font-family="Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif">
-    <g transform="translate(76 66)"><circle cx="9" cy="0" r="5" fill="#B9E85A"/><text x="28" y="6" fill="#A9B7C7" font-size="17" letter-spacing="3">RAZACODES-ANY</text><text x="340" y="6" fill="#60758B" font-size="14" letter-spacing="2">/ PROFILE</text></g>
-    <text x="76" y="218" fill="url(#name)" font-size="104" font-weight="760" letter-spacing="-5">Fardeen Raza</text>
-    <rect x="78" y="250" width="72" height="4" rx="2" fill="url(#accent)"/>
-    <text x="76" y="300" fill="#E7EEF7" font-size="27" font-weight="520">Software Developer</text><circle cx="344" cy="291" r="4" fill="#B9E85A"/><text x="365" y="300" fill="#A9B7C7" font-size="25">Computer Science Graduate</text>
-    <g transform="translate(76 362)">
-      <rect width="184" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/><path d="M27 26l-9 7 9 7M45 26l9 7-9 7M40 21l-8 24" fill="none" stroke="#8FC8FF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/><text x="73" y="39" fill="#F0F5FB" font-size="19" font-weight="600">DSA</text>
-      <rect x="198" width="226" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/><path d="M223 26l14-8 14 8-14 8-14-8zm0 9l14 8 14-8" fill="none" stroke="#8FC8FF" stroke-width="2" stroke-linejoin="round"/><text x="266" y="39" fill="#F0F5FB" font-size="19" font-weight="600">Web Development</text>
-      <rect x="438" width="236" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/><path d="M463 45V32h9v13m5 0V22h9v23m5 0V14h9v31" fill="none" stroke="#B9E85A" stroke-width="2.2" stroke-linecap="round"/><text x="507" y="39" fill="#F0F5FB" font-size="18" font-weight="600">Machine Learning</text>
-      <rect x="688" width="154" height="64" rx="15" fill="#111E2B" stroke="#34506B" stroke-width="1.4"/><path d="M713 23h21v20h-21zM718 18h21v20" fill="none" stroke="#8FC8FF" stroke-width="2" stroke-linejoin="round"/><text x="747" y="39" fill="#F0F5FB" font-size="18" font-weight="600">Projects</text>
+    <g transform="translate(100 95)">
+      <circle cx="10" cy="0" r="5" fill="#B9E85A"/>
+      <text x="32" y="7" fill="#AFBED0" font-size="21" letter-spacing="2.2">razacodes-any</text>
     </g>
-    <g transform="translate(1010 83)" filter="url(#shadow)">
-      <rect width="514" height="350" rx="19" fill="#0B111A" stroke="#36516D" stroke-width="1.5"/><path d="M0 19Q0 0 19 0H495Q514 0 514 19V51H0Z" fill="#172433"/>
-      <circle cx="25" cy="25" r="6" fill="#FF6D70"/><circle cx="48" cy="25" r="6" fill="#F6C45D"/><circle cx="71" cy="25" r="6" fill="#72D69A"/>
-      <text x="106" y="31" fill="#8EA3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">fardeen.py — workspace</text>
-      <text x="31" y="93" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">$</text><text x="58" y="93" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="17">whoami</text>
-      <text x="58" y="128" fill="#B9E85A" font-family="ui-monospace,monospace" font-size="18">Fardeen Raza</text>
-      <text x="31" y="176" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">$</text><text x="58" y="176" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="17">def build():</text>
-      <text x="88" y="212" fill="#C792EA" font-family="ui-monospace,monospace" font-size="17">return</text><text x="163" y="212" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="17">[</text>
-      <text x="112" y="249" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">"solve()"</text><text x="112" y="284" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">"learn()"</text><text x="112" y="319" fill="#8FC8FF" font-family="ui-monospace,monospace" font-size="17">"build()"</text>
-      <rect x="215" y="307" width="9" height="18" fill="#B9E85A" opacity=".9"/><path d="M385 78v222" stroke="#294157"/>
-      <text x="408" y="111" fill="#71879D" font-family="ui-monospace,monospace" font-size="12">STATUS</text><circle cx="414" cy="146" r="5" fill="#B9E85A"/><text x="430" y="151" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">BUILDING</text>
-      <text x="408" y="193" fill="#71879D" font-family="ui-monospace,monospace" font-size="12">FOCUS</text><text x="408" y="229" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">DSA</text><text x="408" y="258" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">WEB</text><text x="408" y="287" fill="#DCE8F5" font-family="ui-monospace,monospace" font-size="13">ML</text>
-    </g>
-    <text x="76" y="485" fill="#8094A9" font-size="15" letter-spacing="4">BUILD  /  LEARN  /  SOLVE  /  REPEAT</text><path d="M1370 478h154" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/><circle cx="1530" cy="478" r="5" fill="#B9E85A"/>
+
+    <text x="92" y="286" fill="url(#type)" font-size="112" font-weight="760" letter-spacing="-5">Fardeen Raza</text>
+    <rect x="100" y="324" width="112" height="7" rx="3.5" fill="url(#lime)"/>
+    <text x="100" y="388" fill="#F2F6FB" font-size="34" font-weight="620">Software Developer</text>
+    <circle cx="493" cy="377" r="5" fill="#B9E85A"/>
+    <text x="522" y="388" fill="#AAB8C9" font-size="31" font-weight="420">Computer Science Graduate</text>
+    <text x="101" y="455" fill="#AFC0D3" font-size="25" letter-spacing=".2">DSA</text>
+    <circle cx="177" cy="447" r="3.5" fill="#B9E85A"/>
+    <text x="207" y="455" fill="#AFC0D3" font-size="25">Web Development</text>
+    <circle cx="447" cy="447" r="3.5" fill="#B9E85A"/>
+    <text x="477" y="455" fill="#AFC0D3" font-size="25">Machine Learning</text>
+    <circle cx="737" cy="447" r="3.5" fill="#B9E85A"/>
+    <text x="767" y="455" fill="#AFC0D3" font-size="25">Projects</text>
   </g>
+
+  <g transform="translate(1195 258)" filter="url(#shadow)">
+    <ellipse cx="0" cy="170" rx="250" ry="28" fill="#087FEA" opacity=".22" filter="url(#softBlur)"/>
+    <path d="M-155 -65L-230 16L-155 97L-119 59L-159 16L-119 -27Z" fill="url(#blueSide)" stroke="#A8E2FF" stroke-width="2"/>
+    <path d="M-155 -65L-230 16L-155 97L-144 84L-207 16L-144 -51Z" fill="#D7F4FF" opacity=".5"/>
+    <path d="M-28 -126L-109 132L-55 132L25 -126Z" fill="url(#blue)" stroke="#D9F4FF" stroke-width="2"/>
+    <path d="M-28 -126L25 -126L-55 132L-109 132Z" fill="#47AFFF" opacity=".26"/>
+    <path d="M155 -65L230 16L155 97L119 59L159 16L119 -27Z" fill="url(#blueSide)" stroke="#A8E2FF" stroke-width="2"/>
+    <path d="M155 -65L230 16L155 97L144 84L207 16L144 -51Z" fill="#D7F4FF" opacity=".5"/>
+    <path d="M-155 -65L-230 16L-155 97M-28 -126L-109 132M155 -65L230 16L155 97" fill="none" stroke="#E4FAFF" stroke-opacity=".8" stroke-width="2" filter="url(#bright)"/>
+  </g>
+
+  <path d="M1170 0C1295 90 1410 105 1600 48" fill="none" stroke="#168BFF" stroke-opacity=".65" stroke-width="3"/>
+  <path d="M1170 0C1295 90 1410 105 1600 48" fill="none" stroke="#168BFF" stroke-opacity=".22" stroke-width="20" filter="url(#softBlur)"/>
 </svg>

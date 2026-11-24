@@ -1,44 +1,38 @@
-div align="center">
-  img src="./assets/fardeen-raza-profile-banner.svg" alt="Fardeen Raza — Software Developer profile banner" width="100%" /
-/div>
+![Fardeen Raza — software developer profile banner](./assets/fardeen-raza-profile-banner.svg)
 
-p align="center">
-  a href="https://fardeen-raza-portfolio.vercel.app/">Portfolio/a> ·
-  a href="https://www.linkedin.com/in/fardeen-raza-b2476437a">LinkedIn/a> ·
-  a href="mailto:razafardeen2002@gmail.com">Email/a>
-/p>
+*Fardeen Raza*
 
-h3 align="center">COMPUTER SCIENCE GRADUATE · SOFTWARE DEVELOPER/h3>
+[Portfolio](https://fardeen-raza-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/fardeen-raza-b2476437a) · [Email](mailto:razafardeen2002@gmail.com)
 
-p align="center">
-  I enjoy solving problems, building useful software, and learning by turning ideas into practical projects.
-/p>
+---
+
+### Computer Science Graduate · Software Developer
+
+I enjoy solving problems, building useful software, and learning by turning ideas into practical projects.
 
 ---
 
 ## About
 
 - B.Tech in Computer Science Engineering — Radharaman Engineering College (RGPV), 2022–2026
-- Focused on Data Structures &amp; Algorithms, software development, web technologies, and machine learning
+- Focused on Data Structures & Algorithms, software development, web technologies, and machine learning
 - Interested in building practical products and exploring the details behind how they work
 - Outside technology: music and creative work
 
 ## Tech stack
 
-p>
- img src="https://img.shields.io/badge/Python-142338?style=for-the-badge&amp;logo=python&logoColor=8FC8FF" alt="Python" /
-  img src="https://img.shields.io/badge/Java-142338?style=for-the-badge&logo=openjdk&logoColor=8FC8FF" alt="Java" /
-  img src="https://img.shields.io/badge/C%252B%252B-142338?style=for-the-badge&logo=cplusplus&logoColor=8FC8FF" alt="C plus plus" /
-  img src="https://img.shields.io/badge/React-142338?style=for-the-badge&logo=react&logoColor=8FC8FF" alt="React" /
-  img src="https://img.shields.io/badge/HTML5-142338?style=for-the-badge&logo=html5&logoColor=8FC8FF" alt="HTML5" /
-  img src="https://img.shields.io/badge/CSS3-142338?style=for-the-badge&logo=css3&logoColor=8FC8FF" alt="CSS3" /
-  img src="https://img.shields.io/badge/SQL%2520%252F%2520MySQL-142338?style=for-the-badge&logo=mysql&logoColor=8FC8FF" alt="SQL and MySQL" /
-  img src="https://img.shields.io/badge/FastAPI-142338?style=for-the-badge&logo=fastapi&logoColor=B9E85A" alt="FastAPI" /
-  img src="https://img.shields.io/badge/Scikit--learn-142338?style=for-the-badge&logo=scikitlearn&logoColor=B9E85A" alt="Scikit-learn" /
-  img src="https://img.shields.io/badge/Pandas-142338?style=for-the-badge&logo=pandas&logoColor=8FC8FF" alt="Pandas" /
-  img src="https://img.shields.io/badge/NumPy-142338?style=for-the-badge&logo=numpy&logoColor=8FC8FF" alt="NumPy" /
-  img src="https://img.shields.io/badge/Git%2520%252F%2520GitHub-142338?style=for-the-badge&logo=github&logoColor=B9E85A" alt="Git and GitHub" /
-/p>
+![Python](https://img.shields.io/badge/Python-142338?style=for-the-badge&logo=python&logoColor=8FC8FF)
+![Java](https://img.shields.io/badge/Java-142338?style=for-the-badge&logo=openjdk&logoColor=8FC8FF)
+![C++](https://img.shields.io/badge/C%252B%252B-142338?style=for-the-badge&logo=cplusplus&logoColor=8FC8FF)
+![React](https://img.shields.io/badge/React-142338?style=for-the-badge&logo=react&logoColor=8FC8FF)
+![HTML5](https://img.shields.io/badge/HTML5-142338?style=for-the-badge&logo=html5&logoColor=8FC8FF)
+![CSS3](https://img.shields.io/badge/CSS3-142338?style=for-the-badge&logo=css3&logoColor=8FC8FF)
+![SQL and MySQL](https://img.shields.io/badge/SQL%2520%252F%2520MySQL-142338?style=for-the-badge&logo=mysql&logoColor=8FC8FF)
+![FastAPI](https://img.shields.io/badge/FastAPI-142338?style=for-the-badge&logo=fastapi&logoColor=B9E85A)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-142338?style=for-the-badge&logo=scikitlearn&logoColor=B9E85A)
+![Pandas](https://img.shields.io/badge/Pandas-142338?style=for-the-badge&logo=pandas&logoColor=8FC8FF)
+![NumPy](https://img.shields.io/badge/NumPy-142338?style=for-the-badge&logo=numpy&logoColor=8FC8FF)
+![Git and GitHub](https://img.shields.io/badge/Git%2520%252F%2520GitHub-142338?style=for-the-badge&logo=github&logoColor=B9E85A)
 
 ## Selected projects
 
@@ -55,12 +49,6 @@ Strengthening problem-solving fundamentals through DSA, building practical softw
 
 ---
 
-p align="center">
-  a href="https://github.com/razacodes-any">GitHub/a> ·
-  a href="https://www.linkedin.com/in/fardeen-raza-b2476437a">LinkedIn/a> ·
-  a href="https://fardeen-raza-portfolio.vercel.app/">Portfolio/a>
-/p>
+[GitHub](https://github.com/razacodes-any) · [LinkedIn](https://www.linkedin.com/in/fardeen-raza-b2476437a) · [Portfolio](https://fardeen-raza-portfolio.vercel.app/)
 
-p align="center">
-  sub>BUILD / LEARN / SOLVE / REPEAT/sub>
-/p>
+*BUILD / LEARN / SOLVE / REPEAT*
